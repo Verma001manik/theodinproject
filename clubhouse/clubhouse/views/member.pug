@@ -1,0 +1,9 @@
+extends layout 
+
+block content 
+  h1= title 
+  form(action="/member", method="POST") 
+    label(for="passcode") Enter Passcode
+    input(type="text", name="passcode" placeholder="Type: Password")
+    button(type="submit") Join
+

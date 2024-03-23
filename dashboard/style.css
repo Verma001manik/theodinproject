@@ -1,0 +1,208 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.container {
+    display: grid;
+    grid-template: 200px 200px 200px 200px 200px / 200px 200px 200px 200px 200px;
+    background-color:aliceblue; 
+    gap: 30px;
+  }
+  
+  .room {
+    border: 1px solid black;
+    /* font-size: 50%; */
+    text-align: center;
+    
+  }
+  
+  #living-room {
+    font-size: 30px;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    /* grid-row-end: 1; */
+    margin-bottom: 60px;
+    
+  }
+  
+
+
+  
+  #bathroom {
+    border-radius: 25px;
+    
+    width: 250px;
+    padding: 0px;
+   
+    
+    /* background-color:     #c01717   ; */
+    /* background-color:  #ff0000 ; */
+    background-color: black;
+    box-shadow: 3px 7px 43px 17px black;
+   
+    color: white;
+    font-size: 40px;
+    font-family: 'Aclonica';
+
+    grid-column-start: 1; 
+     grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    
+  }
+.benz{
+
+
+  font-size: 21px;
+  font-weight: bold;
+  padding: 3px;
+  margin: 15px;
+  font-family: "Sofia", sans-serif;
+
+  cursor: pointer;
+  border-radius: 90px;
+  
+  
+  
+}
+.benz:hover{
+  background-color: whitesmoke;
+  color: black;
+}
+.grid-contain{
+ 
+  
+  display: grid;
+  max-width: 400px;
+  
+ 
+
+  margin-left: 90px;
+  grid-template-columns: 330px 330px;
+  grid-template-rows: 200px 200px 200px;
+  gap: 20px;
+  
+  
+}
+.item{
+  padding-top: 8px;
+  padding-left: 9px;
+  padding-right: 30px;
+  box-shadow: 0px 0px 20px 1px black;
+  
+
+  background-color: white;
+  border-radius: 10px;
+  font-size: 9px;
+  text-align: left;
+  color: black;
+  
+
+ 
+  
+  border: 3px solid black;
+
+  
+}
+.item:hover{
+  background-color: black;
+  color: white;
+}
+.maintain{
+  margin-left: 130px;
+  display: grid;
+ 
+
+  grid-template-columns: 280px;
+  grid-template-rows: 390px 300px ;
+  grid-column-start: 5;
+  grid-row-start:2;
+  gap: 80px;
+
+}
+.tain{
+  padding: 28px;
+ 
+  border: 3px solid black;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 7px;
+
+
+ 
+}
+.tain:hover{
+  background-color: black;
+  color: white;
+}
+.tain >p{
+  font-size: 15px;
+  text-align: left;
+  padding-top: 0px;
+  padding-left: 5px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+
+}
+.item >p{
+  /* text-align: center; */
+  font-size: 18px;
+  
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.search{
+  margin-left: 300px;
+  border-radius: 30px;
+  margin-top: 15px;
+  text-align: center;
+  width: 45%;
+  padding: 4px;
+  float: center;
+  background-color: white;
+  border: 1px solid black;
+}
+.search:hover{
+  background-color: black;
+  color: white;
+}
+button{
+  float: right;
+  margin-top: 70px;
+  /* margin-bottom: 800px; */
+  margin-right: 40px;
+  
+  font-size: 16px;
+  color: white;
+    background-color: black;
+ 
+  border-radius: 30px;
+  padding: 19px;
+}
+button:hover{
+  background-color:aliceblue;
+  color: black;
+  
+}
+.name{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.tain > img{
+  float: left;
+ margin-right: 5px;
+ /* margin-top: 9px; */
+}
+.logo{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 40px;
+  background-color: skyblue;
+  border-radius: 40px;
+}

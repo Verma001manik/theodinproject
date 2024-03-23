@@ -1,0 +1,22 @@
+
+#searchbar{
+    /* text-align: center; */
+    margin-left: 35%;
+    margin-top: 40px;
+    /* margin-right: 10%; */
+    width: 450px;
+    height: 20px;
+
+    padding: 10px;
+    /* border-radius: 20px; */
+}
+.data{
+    display: none;
+    text-align: center;
+    margin-left:350px;
+    margin-right: 350px;
+    margin-top: 150px;
+
+    border: 2px solid white;
+    padding: 30px;
+}

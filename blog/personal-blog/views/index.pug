@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  if error 
+   p No blogs currently 
+  else 
+   ul 
+     li #{data.title}
+        

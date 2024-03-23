@@ -1,0 +1,10 @@
+extends layout 
+
+block content 
+  h1=title 
+  form(action="/signup" method='POST')
+    label(for="username" ) Username 
+    input(type="text" id='username' placeholder='username' name='username')
+    label(for="password") Password
+    input(type="password" id='password' placeholder='password'  name='password')
+    button(type='submit' id='submit' class='submit') Submit 

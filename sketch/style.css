@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+
+
+}
+.grid{
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: auto;
+}

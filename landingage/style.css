@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f2937;
+  }
+
+  .benzene{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 90px;
+
+  }
+  
+  li {
+    float: left;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 60px;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+.main{
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    height: 500px;
+    
+    align-items: center;
+    vertical-align: middle;
+    padding: 0px;
+    background-color: #1f2937;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* float: inline; */
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 180px;
+    margin-left: 140px;
+}
+
+
+
+img{
+    display: flex;
+    border-radius: 20px;
+    /* float: right; */
+    margin-right: 180px;
+    float: right;
+    position: relative;
+    margin-left: 80 px;
+    
+
+}
+.information{
+    background-color: rgba(255, 255, 255, 0.911) !important;
+    margin-top: 60px;
+    color: #111;
+    text-align: center;
+
+}
+.flex-container{
+    text-align: center;
+    display: flex;
+   
+    margin-right: 700px; 
+    padding-left: 120px;
+    padding-right: 200px;
+    height: 140px;
+    /* width: 120px; */
+    align-items: center;
+    word-wrap: normal;
+    justify-content: center;
+    width: 1300px;
+    gap: 10px;
+    /* width: 180px; */
+}
+.flex-container div{
+    /* background-color: white; */
+   
+    border: 6px solid blue;
+    height: 180px;
+    width: 1px;
+    flex: 1 1 auto;
+    margin-bottom: 120px;
+    margin-left: 70px;
+    margin-right: 100px;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    /* position: static; */
+    
+    
+    
+}
+.flex-container p{
+    display: inline;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding: 28px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    position: relative;
+}
+.signup{
+    background-color:  rgb(15, 141, 219);
+    height: 180px;
+    margin: 100px 100px 100px 100px;
+    
+    border-radius:20px;
+    
+   
+  
+    
+    font-family: 'Times New Roman', Times, serif;
+    
+
+
+    
+
+}
+div{
+    text-align: center;
+}
+.good{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10px;
+    height: 40px;
+    
+}
+button{
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    background-color:  rgb(15, 141, 219)!important;
+    height:70px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    /* top:50%;  */
+    border-radius: 40px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My library</h1>
+    <div class="container">
+        <div class="library" id="mylibrary">
+            
+
+        </div>
+       
+
+    </div>
+    <button class="btnn" onclick="openForm()">Add Book</button>
+    <div class="form-popup" id="myForm">
+
+        <form action="" id="form" class="form-container">
+            <label for="author" >Author</label>
+            <input type="text" id="author" value="" required/><br>
+            <label for="title">Title</label>
+            <input type="text" id="title" value="" required/><br>
+            <label for="Pages">Pages</label>
+            <input type="number" id="pages" min="0"max="10000"  pattern="[0-9]" inputmode="numeric"  required/><br>
+            <!-- <label for="toggle">Read </label>
+            <input type="checkbox"  name="toggle" id="read"> -->
+
+            <label for="readornot">READ??</label>
+            <select name="select" id="select">
+                <option value="yes"> Yes</option>
+                <option value="no">No</option>
+            </select>
+           
+            <button type="submit" id="btn" class="btn">Submit</button>
+            <button type="button" class="btn cancel" onClick="closeForm()">Close</button>
+
+            
+        </form>
+    </div>
+
+   <table>
+    <tr>
+        <th>Author</th>
+        <th>Title</th>
+        <th>Pages</th>
+        <th>Read</th>
+      </tr>
+
+   </table>
+<!-- 
+    <div class="grid">
+        <div>
+            <h3>Title: </h3>
+            <h4>Pages: </h4>
+            <h5>Read: </h5>
+        </div>
+        <div> -->
+            <!-- <h2>Author: </h2>
+            <h3>Title: </h3>
+            <h4>Pages: </h4>
+            <h5>Read: </h5>
+        </div>
+        <div>
+            <h2>Author: </h2>
+            <h3>Title: </h3>
+            <h4>Pages: </h4>
+            <h5>Read: </h5>
+        </div>
+        <div>
+            <h2>Author: </h2>
+            <h3>Title: </h3>
+            <h4>Pages: </h4>
+            <h5>Read: </h5>
+        </div>
+        <div>
+            <h2>Author: </h2>
+            <h3>Title: </h3>
+            <h4>Pages: </h4>
+            <h5>Read: </h5>
+        </div>
+        <div>
+            <h2>Author: </h2>
+            <h3>Title: </h3>
+            <h4>Pages: </h4>
+            <h5>Read: </h5>
+        </div> -->
+
+           
+            
+
+
+
+   
+
+
+
+    <script src="index.js"></script>
+</body>
+<footer>Copyright @2023</footer>
+
+</html>

@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src="/javascripts/main.js") 
+  body
+  div(class='container')
+    nav
+      h2= Blog
+      ul 
+        li 
+          a(href="/") Home 
+        if(user) 
+          li 
+            a(href="/post/create") Write 
+          li 
+            a(href="/publish") Published 
+          li 
+            a(href="/unpulbish") Unpublished 
+          li 
+            a(href="/logout") Logout 
+        else 
+          li 
+            a(href="/signup") Sign up
+          li 
+            a(href="/login") Login 
+           
+    block content

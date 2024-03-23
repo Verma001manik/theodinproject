@@ -1,0 +1,25 @@
+So the basic idea for the website is that , when you visit the home page of the
+website you will find number of books but you will not be able to read 
+all of the mentioned books , and to do that you have to be a member and to 
+be a member you have fill out a form which will consist of 
+everything the will make you a member of the website
+
+and you will be able to read the books ....and also be able to add
+the books into the home index with description and title and 
+link to the books (ofcourse free books)
+
+but you have to  be a member to taste and eat the whole cake..
+
+
+first we need a database that will contain users another one 
+books which will have title and description and a link to the
+book address. ...
+
+then need to sign them up and log them in and then make them the member
+while thinking of this thing i was also thinking about how 
+what will happen if the users just generally logs in 
+i dont want him  to nothing 
+
+so what if the user will be able to add books and what if the
+member user can also write them like literally short books 
+

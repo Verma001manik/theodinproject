@@ -1,0 +1,12 @@
+extends layout 
+
+block content 
+  h1= title 
+  form(action="/message", method="POST") 
+    label(for="title") Title 
+    input(type="tetxt", name="title")
+    label(for="message") Message 
+    input(type='text',name="text") 
+    //- label(for="confirmpassword") Confirm Password 
+    //- input(type="password")
+    button(type="submit") Add

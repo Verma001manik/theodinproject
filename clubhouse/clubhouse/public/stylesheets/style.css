@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.message{
+  border: 1px solid black ;
+  text-align: left;
+  margin-left: 10%;
+  padding-left: 30px;
+  padding-top: 30px;
+
+}

@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= title
+ 
+  form(method='POST' action='/new')
+      div.form-group
+        label(for='name') Username:
+        input#name.form-control(type='text', placeholder='Albert,Issac ..etc' name='username' required)
+        label(for='message') Message:
+        input#name.form-control(type='textarea', placeholder='whatever' name='message' )
+
+      button.btn.btn-primary(type='submit') Submit
+  footer 
+    
+    a(href="/") Home
+  

@@ -1,0 +1,9 @@
+extends layout 
+block content 
+
+  form(method="POST" action="/post/create")
+    label(for="title") Title:
+    input(type="text" name="title")
+    label(for="body") Body:
+    textarea(name="body" rows="10" cols="50")
+    button(type="submit") Create Post

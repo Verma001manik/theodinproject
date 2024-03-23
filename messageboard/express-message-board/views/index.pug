@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  h1= title 
+  
+  
+    
+
+
+  each message in messages 
+    li 
+       
+      |  (#{message.text} -#{message.user}-#{message.added})
+      //- #{message.text}
+      //- #{message.added}
+  
+  
+
+  footer 
+    
+    a(href="/New") New
+  
+

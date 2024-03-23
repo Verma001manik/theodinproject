@@ -1,0 +1,159 @@
+body{
+    text-align: center;
+    background-color:#fff08f;
+}
+h1{
+    text-align: center;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    border: 3px solid;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left:550px;
+    margin-right: 550px;
+    margin-bottom: 20px;
+    border-radius: 90px;
+    box-shadow: 10px 10px 10px  grey;
+}
+
+.container{
+    display: grid;
+    border: 1px solid black;
+    /* grid-template: 2000px 2000px / 2000px 2000px ; */
+    gap: 30px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.btnn{
+    margin-top: 40px;
+    /* margin-bottom: 600px; */
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 4px  black;
+    
+}
+.btnn:hover{
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+    box-shadow: 10px 10px 10px 4px  grey;
+   
+    
+    
+}
+.form-popup{
+    display: none;
+    position: fixed;
+    right: 500px;
+    bottom: 70px;
+    border: 3px solid black;
+    z-index: 9;
+    border-radius: 90px;
+    
+}
+.form-container{
+    
+    max-width: 300px;
+    padding:50px;
+    background-color: white;
+    border-radius: 90px;
+}
+.form-container input[type=text]{
+    font-size: 15px;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0px 22px 0px ;
+    border: none;
+    background-color: gray;
+    border-radius: 30px;
+}
+.form-container input[type=number]{
+    font-size: 15px;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0px 22px 0px ;
+    border: none;
+    background-color: gray;
+    border-radius: 30px;
+
+}
+.form-container .btn {
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom:10px;
+    opacity: 0.8;
+    border-radius: 40px;
+}
+.form-container .cancel {
+    background-color: red;
+  }
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+footer{
+    font-size: 30px;
+    padding-top: 400px;
+    font-weight: bold;
+    font-family:monospace;
+}
+#select{
+    margin: 6px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+   
+}
+.grid{
+    
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px   ;
+    grid-template-rows:300px 300px   ;
+    gap: 30px;
+   
+
+}
+.grid > div{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+table{
+    border: 2px solid blacks;
+}
+td{
+    border: 3px solid black;
+}
+table {
+    margin: 60px;
+    
+  
+   
+    
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 30px;
+    /* border: 2px solid black ; */
+  }
+
+  td, th {
+    border: 5px solid black;
+    text-align: left;
+    padding: 8px;
+    
+  }

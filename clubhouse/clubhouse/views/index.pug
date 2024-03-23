@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  div(class='message')
+    each message in data.messages.slice().reverse()
+      h2= message.title
+      p= message.text
+      p= message.user.username
+      p= message.timestamp
+      br
+      hr

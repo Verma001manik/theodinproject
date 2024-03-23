@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title= title
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+
+  body
+    div(class='container')
+      if (user)
+        ul 
+          li 
+            a(href="/logout") Logout 
+          li 
+            a(href="/member") Member  
+          li 
+            a(href="/message") New Message 
+      else 
+        ul 
+          li 
+            a(href='/signup') Signup
+          li 
+            a(href='/login') Login
+
+      block content
